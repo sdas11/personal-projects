@@ -18,6 +18,6 @@ public class Main {
 
         Solver solver = new Solver(cityGraph, ams);
         solver.solve(10, 15, 5000);
-        int k = 0;
+        System.out.println("The route is: " + solver.maxTripRoute);
     }
 }

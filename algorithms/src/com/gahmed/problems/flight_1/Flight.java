@@ -15,4 +15,12 @@ public class Flight {
         this.charge = charge;
         this.date = date;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "dest : " + dest +
+                ", date : " + date +
+                "}";
+    }
 }
